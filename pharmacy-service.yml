@@ -10,6 +10,10 @@ spring:
     generate-ddl: false
     hibernate:
       ddl-auto: update
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: false
 store:
   storeNo: 200
   storeName: apollo pharamacy
